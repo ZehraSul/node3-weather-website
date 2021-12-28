@@ -20,7 +20,9 @@ const forecast = (latitude, longitude, callback) => {
           ". The temperature is " +
           body.current.temperature +
           " and it feels like " +
-          body.current.feelslike
+          body.current.feelslike +
+          ". The observation time was " +
+          body.current.observation_time
       );
     }
   });
